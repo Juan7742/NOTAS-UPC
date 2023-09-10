@@ -12,15 +12,19 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#543B7780">
+        android:background="#543B7780"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <Button
             android:id="@+id/btnIniciarSesion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/green_00C16A"
+            android:backgroundTint="@color/green_00C16A"
             android:text="Iniciar Sesión"
             tools:layout_editor_absoluteX="130dp"
-            tools:layout_editor_absoluteY="537dp" />
+            tools:layout_editor_absoluteY="493dp" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -47,6 +51,7 @@
             android:text="LOGIN"
             android:textColor="#FFFFFF"
             android:textSize="34sp"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="156dp"
             tools:layout_editor_absoluteY="289dp" />
 
@@ -58,12 +63,13 @@
             android:textColor="#FFFFFF"
             android:textSize="40px"
             tools:layout_editor_absoluteX="100dp"
-            tools:layout_editor_absoluteY="443dp" />
+            tools:layout_editor_absoluteY="423dp" />
 
         <EditText
             android:id="@+id/edittxtUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:ems="10"
             android:inputType="text"
             tools:layout_editor_absoluteX="100dp"
@@ -73,10 +79,11 @@
             android:id="@+id/edittxtContraseña"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:ems="10"
             android:inputType="text"
             tools:layout_editor_absoluteX="100dp"
-            tools:layout_editor_absoluteY="477dp" />
+            tools:layout_editor_absoluteY="454dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
